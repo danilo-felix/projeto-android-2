@@ -93,6 +93,9 @@ h1 {
     font-weight: 400;
 }
 
+.bg-success {
+    background-color: #a4c639!important;
+
 .p-h1 {
     position: absolute;
     top: 360px;
