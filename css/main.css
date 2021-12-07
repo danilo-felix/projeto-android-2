@@ -129,3 +129,7 @@ aside ul li {
 .footer {
     color: white;
 }
+
+.footer p {
+    margin-top: 1rem;
+}
