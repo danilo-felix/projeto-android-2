@@ -53,10 +53,10 @@ h3 {
 
 .vl {
     border-left: 6px solid #a4c639;
-    height: 230px;
+    height: 190px;
     position: absolute;
     left: 23px;
-    top: 236px;
+    top: 210px;
   }
 
 .fundo {
@@ -78,24 +78,25 @@ h3 {
 
 h1 {
     position: absolute;
-    top:260px;
+    top:223px;
     left: 30px;
     width: 90%;
     padding: 10px;
-    font-weight: 300 !important;
-    font-size: calc(1.575rem + 1vw) !important;
-    line-height: 1.0 !important;
+    font-variant: small-caps;
+    letter-spacing: 0.15rem;
+    font-weight: 500 !important;
+    line-height: 0.8 !important;
     z-index: 3;
 }
 
 .tecnologia {
-    font-size: calc(1.575rem + 7.5vw) !important;
+    font-size: calc(1.575rem + 5.8vw) !important;
     font-weight: 400;
 }
 
 .p-h1 {
     position: absolute;
-    top: 360px;
+    top: 426px;
     left: 30px;
     width: 73%;
     padding: 10px;
