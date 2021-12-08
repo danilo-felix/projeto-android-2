@@ -118,8 +118,8 @@ iframe {
     padding: 40px 0 40px 0 !important;
 }
 
-aside ul li {
-    color: black;
+.accordion-body {
+    color: black !important;
 }
 
 .ending {
