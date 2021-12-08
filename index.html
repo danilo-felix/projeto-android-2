@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Android</title>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
@@ -51,7 +51,7 @@
   </header>
 
   <main>
-    <section class="section historia bg-success bg-gradient text-light shadow-sm">
+    <section class="section historia bg-success bg-gradient text-light shadow-sm" data-aos="fade-left">
       <div class="row">
         <h2 class="display-5 mt-3 mb-5 my-md-4 my-lg-5 text-center">História do mascote do Android</h2>
         <p class="lh-lg fs-5">Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
@@ -355,5 +355,10 @@
 
     <script src="js/bootstrap.min.js" ></script>
     <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
