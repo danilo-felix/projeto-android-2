@@ -67,6 +67,7 @@ h3 {
 }
 
 .section {
+    position: relative;
     width: 100vw;
     padding: 40px 0 40px 0 !important;
 }
@@ -104,6 +105,12 @@ h1 {
     z-index: 3;
     line-height: 1.6 !important;
     font-size: 1.1rem;
+}
+
+.subtitle {
+    position: absolute;
+    top: 7px !important;
+    padding-left: 10px;
 }
 
 h2 {
