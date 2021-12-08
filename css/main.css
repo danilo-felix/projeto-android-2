@@ -120,7 +120,14 @@ iframe {
 
 .accordion-body p {
     color: black !important;
+    font-weight: 500;
 }
+
+.accordion-body span {
+    font-weight: 600;
+    color: #2f9264;
+}
+
 
 .ending {
     font-family: var(--fonte-android);
