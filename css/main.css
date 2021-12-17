@@ -184,10 +184,18 @@ iframe {
     filter: grayscale(.9);
   }
 
-  #donut {
+#donut{
       background-image: url('../imagens/p-donut.png');
-  }
+}
   
+#eclair {
+    background-image: url('../imagens/p-eclair.jpg');
+}
+
+#froyo {
+    background-image: url('../imagens/p-froyo.jpg');
+}
+
   .card_face-front h3 {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.541);
