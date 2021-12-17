@@ -176,13 +176,16 @@ iframe {
   }
   
   .card_face-front {
-    background-image: url('../imagens/p-cupcake.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     filter: grayscale(.9);
   }
+
+#cupcake {
+    background-image: url('../imagens/p-cupcake.jpg');
+}
 
 #donut{
       background-image: url('../imagens/p-donut.png');
