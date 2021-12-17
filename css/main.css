@@ -199,6 +199,31 @@ iframe {
     background-image: url('../imagens/p-froyo.jpg');
 }
 
+#gingerbread {
+    background-image: url('../imagens/p-gingerbread.jpg');
+}
+
+#honeycomb {
+    background-image: url('../imagens/p-honeycomb.png');
+}
+
+#icesand {
+    background-image: url('../imagens/p-icesand.jpg');
+}
+
+#jellybean {
+    background-image: url('../imagens/p-jellybean.jpg');
+}
+
+#kitkat {
+    background-image: url('../imagens/p-kitkat.jpg');
+    background-position: center;
+}
+
+#lollipop {
+    background-image: url('../imagens/p-lollipop.jpg');
+}
+
   .card_face-front h3 {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.541);
