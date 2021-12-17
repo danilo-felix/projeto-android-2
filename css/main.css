@@ -145,11 +145,10 @@ iframe {
   }
   
   .card_flip {
-    margin: auto 0;
+    margin: auto;
     width:300px;
     height: 300px;
     border: none !important;
-    background-color: none !important;
   }
   
   .card_inner {
