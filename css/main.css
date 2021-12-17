@@ -224,6 +224,23 @@ iframe {
     background-image: url('../imagens/p-lollipop.jpg');
 }
 
+#marshmallow {
+    background-image: url('../imagens/p-marshmallow.jpg');
+}
+
+#nougat {
+    background-image: url('../imagens/p-nougat.png');
+}
+
+#oreo {
+    background-image: url('../imagens/p-oreo.jpg');
+}
+
+#pie {
+    background-image: url('../imagens/p-pie.jpg');
+}
+
+
   .card_face-front h3 {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.541);
