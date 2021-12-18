@@ -14,7 +14,7 @@ html {
 h1,
 h2,
 h3 {
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-android) !important;
 }
 
 .nav-link:hover {
@@ -114,6 +114,10 @@ h1 {
 }
 
 h2 {
+    font-weight: 400 !important;
+}
+
+h3 {
     font-weight: 400 !important;
 }
 
@@ -255,17 +259,20 @@ body {
 .version_logo {
     max-height: 100px;
     width: auto;
-    padding: 10px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .card_face-back h3 {
-    padding: 10px 0 5px 0;
+    padding: 10px 0 15px 0;
     color: #5d8d38
 }
 
 .card_face-back p {
+    padding-left: 10px;
+    text-align: left;
     color: black;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .card_face-back span {
