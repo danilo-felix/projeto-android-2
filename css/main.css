@@ -180,23 +180,25 @@ body {
 }
 
 .card_face-front {
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     filter: grayscale(.9);
 }
 
-#cupcake {
+.cupcake {
     background-image: url('../imagens/p-cupcake.jpg');
+    background-size: cover;
 }
 
-#donut{
+.donut{
       background-image: url('../imagens/p-donut.png');
+      background-size: cover;
 }
   
-#eclair {
+.eclair {
     background-image: url('../imagens/p-eclair.jpg');
+    background-size: cover;
 }
 
 #froyo {
@@ -256,15 +258,39 @@ body {
     background-color: white;
 }
 
+.topo-back-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    z-index: -2;
+    background-position: center;
+}
+
+.logo-container {
+    position: absolute;
+    margin: auto;
+    top: 42px;
+    left: 90px;
+    border-radius: 50%;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
+
 .version_logo {
-    max-height: 100px;
+    padding-top: 10px;
+    max-height: 70px;
     width: auto;
-    padding: 30px 0 0 0;
+    z-index: 1;
 }
 
 .card_face-back h3 {
-    padding: 10px 0 15px 0;
-    color: #5d8d38
+    padding: 120px 0 15px 0;
+    color: #5d8d38;
+    z-index: 2;
 }
 
 .card_face-back p {
