@@ -175,7 +175,7 @@ body {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 6px;
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -277,6 +277,7 @@ body {
     height: 31%;
     z-index: -2;
     background-position: 75% 40%;
+    border-radius: 5px;
     filter: grayscale(.6);
 }
 
