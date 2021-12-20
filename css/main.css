@@ -51,6 +51,92 @@ h3 {
     background-repeat: no-repeat;
 }
 
+
+/*---------------------HAMBURGER MENU BUTTON---------------------*/
+
+.navbar-toggler {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+
+/*Fazer as configurações em active e focus desaparecerem*/
+.navbar-toggler, 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0;
+    transition: .5s;
+}
+
+.middle-bar:active {
+    left: -20px;
+}
+
+/*Quando a nav é clicada*/
+
+.navbar-toggler .top-bar {
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    left: -20px;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0;
+    transform: rotate(-135deg);
+}
+
+/*Estado quando a navbar está 'collapsed'*/
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    margin-top: 0px;
+    left: 0;
+    opacity: 1;
+    filter: opacity(100);
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+
 .vl {
     border-left: 6px solid #a4c639;
     height: 190px;
