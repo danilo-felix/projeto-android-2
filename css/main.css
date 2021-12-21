@@ -118,7 +118,6 @@ h3 {
 .navbar-toggler .middle-bar {
     opacity: 0;
     left: -20px;
-    filter: alpha(opacity=0);
 }
 
 .navbar-toggler .bottom-bar {
