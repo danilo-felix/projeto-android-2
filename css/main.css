@@ -275,6 +275,7 @@ body {
     align-items: center;
     justify-content: center;
     filter: grayscale(.8);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.219);
 }
 
 .cupcake {
@@ -358,6 +359,7 @@ body {
 .card_face-back {
     transform: rotateY(180deg);
     background-color: white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.219);
 }
 
 .topo-back-card {
