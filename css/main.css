@@ -26,6 +26,14 @@ h3 {
     padding: 10px !important;
 }
 
+.navbar.bg-dark {
+    transition: 0.5s;
+}
+
+.navbar.bg-transparent {
+    transition: 0.5s;
+}
+
 .nav-link {
     padding: 20px 0 20px 20px !important;
 }
