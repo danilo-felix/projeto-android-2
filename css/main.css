@@ -38,6 +38,10 @@ h3 {
     width: 100%;
 }
 
+.bg-success {
+    background-color: rgb(31, 122, 31) !important;
+}
+
 .imagem-header {
     padding: 0 !important;
     height: 100vh !important;
