@@ -29,6 +29,10 @@ h3 {
     font-weight: 500 !important;
 }
 
+header {
+    position: relative;
+}
+
 .nav-link:hover {
     background-color: white;
     color: black !important;
@@ -173,7 +177,7 @@ h3 {
 .section {
     position: relative;
     width: 100vw;
-    padding: 40px 0 40px 0 !important;
+    padding: 80px 0 !important;
 }
 
 .row {
@@ -223,7 +227,7 @@ iframe {
 
 .aside {
     background-color: #5d8d38;
-    padding: 40px 0 40px 0 !important;
+    padding: 80px 0 !important;
 }
 
 .accordion-body p {
@@ -430,6 +434,7 @@ iframe {
 
 .ending {
     font-family: var(--fonte-android);
+    padding: 80px 0;
 }
 
 .footer {
