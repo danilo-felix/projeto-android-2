@@ -182,7 +182,7 @@ header {
 
 .row {
     margin: auto;
-    width: 90vw;
+    width: 80vw;
 }
 
 h1 {
@@ -425,6 +425,10 @@ iframe {
 
 .card_content p {
     text-align: center;
+}
+
+.spacer {
+    height: 0;
 }
 
 /*--------------------------FIM CARDS----------------------------*/
